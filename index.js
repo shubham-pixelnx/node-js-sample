@@ -1,7 +1,7 @@
 let express = require("express");
 let app = express();
 
-app.set("port", 8080);
+app.set("port", 80);
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function (request, response) {
